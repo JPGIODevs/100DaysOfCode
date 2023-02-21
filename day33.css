@@ -1,0 +1,49 @@
+body{
+    background-color: #ffc131;
+}
+h1{
+    color: rgb(0, 0, 0);
+    font-family: verdana;
+    font-size: 300%;
+}
+p {
+    color: black;
+    font-family: Verdana;
+    font-size: 100%
+}
+#mainHeader{
+    text-align: center;
+    color: black;
+}
+.tileImage{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.icon-bar {
+    width: 100%; /* Full-width */
+    background-color: #555; /* Dark-grey background */
+    overflow: auto; /* Overflow due to float */
+  }
+  
+  .icon-bar a {
+    float: left; /* Float links side by side */
+    text-align: center; /* Center-align text */
+    width: 10%; /* Equal width (5 icons with 20% width each = 100%) */
+    padding: 12px 0; /* Some top and bottom padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: white; /* White text color */
+    font-size: 36px; /* Increased font size */
+  }
+  
+  .icon-bar a:hover {
+    background-color: #b18620; /* Add a hover color */
+  }
+  
+  .active {
+    background-color: #ffa931; /* Add an active/current color */
+  }

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tauri ad website</title>
+    <link rel="stylesheet" href="day34.css">
+    <link rel="icon" type="image/x-icon" href="static/favicon.ico">
+</head>
+<body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <div class="icon-bar">
+        <a class="active" href="#"><i class="fa fa-home"></i></a>
+        <a href="#"><i class="fa fa-search"></i></a>
+        <a href="#"><i class="fa fa-envelope"></i></a>
+        <a href="#"><i class="fa fa-globe"></i></a>
+        <a href="#"><i class="fa fa-trash"></i></a>
+    </div>
+    <br>
+    <h1 id="mainHeader">Why Tauri is such a great library for Rust</h1>
+    <br>
+    <div>
+        <img id="tauri" class="tileImage" src="day32.png" alt="tauri logo" width="40%" height="40%">
+        <br>
+    </div>
+    <p id="desc"><b id="boldp">Tauri</b> allows for the opporunity to make a <b id="boldp">back-end application</b> using the <b id="boldp">Rust language</b></p>
+    <p id="desc">to create localised web-apps with any known front-end framework, almost like electron.</p>
+    <br>
+    <div class="contentClass">
+        <h2>Fast and Safe</h2>
+        <p>Memory Safety and speed/scalability are not an issue with <b>Rust</b> as a backend!</p>
+        <button id="alertBtn" type="button">See how!</button>
+        <script>
+            const alertBtn = document.getElementById("alertBtn").style.color = "red";
+        </script>
+    </div>
+    

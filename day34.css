@@ -1,0 +1,77 @@
+body{
+    /*background-color: #ffc131;*/
+    background-image: url("background.png");
+    margin: 0;
+}
+h1{
+    color: rgb(0, 0, 0);
+    font-family: verdana;
+    font-size: 300%;
+}
+p {
+    color: black;
+    font-family: Verdana;
+    font-size: 110%;
+}
+#boldp{
+  font-size: 120%;
+  color: white;
+}
+#desc{
+  text-align: center;
+}
+#mainHeader{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    color: rgb(255, 255, 255);
+}
+.contentClass{
+  text-align: left;
+  margin-left: 10%;
+
+}
+.contentClass p{
+  padding-top: 0;
+  font-size: 100%;
+}
+.contentClass h2{
+  padding-top: 60px;
+  color: white;
+  font-size: 150%;
+
+}
+.tileImage{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+}
+.icon-bar {
+    width: 100%; /* Full-width */
+    opacity: 80%;
+    background-color: #303030; /* Dark-grey background */
+    overflow: auto; /* Overflow due to float */
+    padding-top: 0;
+  }
+  
+  .icon-bar a {
+    float: left; /* Float links side by side */
+    text-align: center; /* Center-align text */
+    width: 10%; /* Equal width (5 icons with 20% width each = 100%) */
+    padding: 8px 0; /* Some top and bottom padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: white; /* White text color */
+    font-size: 36px; /* Increased font size */
+  }
+  
+  .icon-bar a:hover {
+    opacity: 100%;
+    background-color: #4e4e4e; /* Add a hover color */
+  }
+  
+  .active {
+    opacity: 100%;
+    background-color: #101010; /* Add an active/current color */
+  }
